@@ -29,7 +29,18 @@
 		CDE2A32225148C5D00B12C73 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A32125148C5D00B12C73 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AAB24A6C27ECF3F80070701C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB24A6827ECF3F70070701C /* fooy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAB24A5727ECF3F60070701C;
+			remoteInfo = fooy;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		AAB24A6827ECF3F70070701C /* fooy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fooy.xcodeproj; path = ../../fooy/fooy.xcodeproj; sourceTree = "<group>"; };
 		CD0BEE1525245BC600937B4F /* SuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		CD30C920251474DC0049DB93 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30C923251474DC0049DB93 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
@@ -65,9 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAB24A6927ECF3F70070701C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB24A6D27ECF3F80070701C /* fooy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CD30C917251474DC0049DB93 = {
 			isa = PBXGroup;
 			children = (
+				AAB24A6827ECF3F70070701C /* fooy.xcodeproj */,
 				CD30C922251474DC0049DB93 /* HIITFit */,
 				CD30C921251474DC0049DB93 /* Products */,
 			);
@@ -188,12 +208,28 @@
 			mainGroup = CD30C917251474DC0049DB93;
 			productRefGroup = CD30C921251474DC0049DB93 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AAB24A6927ECF3F70070701C /* Products */;
+					ProjectRef = AAB24A6827ECF3F70070701C /* fooy.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CD30C91F251474DC0049DB93 /* HIITFit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AAB24A6D27ECF3F80070701C /* fooy.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = fooy.app;
+			remoteRef = AAB24A6C27ECF3F80070701C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CD30C91E251474DC0049DB93 /* Resources */ = {
